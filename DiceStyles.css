@@ -1,0 +1,34 @@
+body {
+  background-color: dimgrey;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+table, th, td {
+  border: 4px double white;
+  font-size: 40px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.align {
+  text-align: center;
+}
+
+.WhiteBoldText {
+  font-weight: bold;
+  color: white;
+}
+
+.img_class {
+  margin-top: 15px;
+  border: 2px solid black;
+  height: 250px;
+  width: 250px;
+  align: justify;
+}

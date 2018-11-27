@@ -1,0 +1,51 @@
+<!doctype HTML>
+<head>
+  <meta charset="utf-8"/>
+  <title> Javascript Problems </title>
+  <link rel="stylesheet" type ="text/css" href="DiceStyles.css" >
+</head>
+
+<body>
+
+  <center style="font-family:Courier" class="WhiteBoldText">
+    <h1>D I C E W A R S</h1>
+    <div>
+      <form id="sideInput">
+        <table class="align">
+          <tr>
+            <td><input type="radio" name="DiceType" value="4"> 4-sided</input></td>
+            <td><input type="radio" name="DiceType" value="6"> 6-sided</input></td>
+            <td><input type="radio" name="DiceType" value="8"> 8-sided</input></td>
+          </tr>
+          <tr>
+            <td><img class="img_class" src="D4.jpg" alt="4 sided die" title="4 sided die"/></td>
+            <td><img class="img_class" src="D6.jpg" alt="6 sided die" title="6 sided die"/></td>
+            <td><img class="img_class" src="D8.jpg" alt="8 sided die" title="8 sided die"/></td>
+          </tr>
+          <tr>
+            <td><p><span style="color:yellow">Blessing:</span> Can roll three times per turn.</p></td>
+            <td><p><span style="color:yellow">Blessing:</span> Has a chance to deal double damage.</p></td>
+            <td><p><span style="color:yellow">Blessing:</span> Can spend a turn to store energy.</p></td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="DiceType" value="10"> 10-sided</input></td>
+            <td><input type="radio" name="DiceType" value="12"> 12-sided</input></td>
+            <td><input type="radio" name="DiceType" value="20"> 20-sided</input></td>
+          </tr>
+          <tr>
+            <td><img class="img_class" src="D10.jpg" alt="10 sided die" title="10 sided die"/></td>
+            <td><img class="img_class" src="D12.jpg" alt="12 sided die" title="12 sided die"/></td>
+            <td><img class="img_class" src="D20.jpg" alt="20 sided die" title="20 sided die"/></td>
+          </tr>
+          <tr>
+            <td><p><span style="color:fuchsia">Curse:</span> No special ability.</p></td>
+            <td><p><span style="color:fuchsia">Curse:</span> Has a chance to cause self-damage.</p></td>
+            <td><p><span style="color:fuchsia">Curse:</span> Gets tired, will spend a turn to "sleep".</p></td>
+          </tr>
+        </table>
+        <input class="align" id="myBtn" name="button" type="button" value="Roll!!" style="font-size:30px; margin-top:30px; margin-right:45px">
+      </form>
+    </div>
+  </center>
+  <script src="DiceJava.js"> </script>
+</body>
