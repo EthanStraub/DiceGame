@@ -1,0 +1,45 @@
+body {
+  background-color: dimgrey;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+
+table {
+  border: 4px double white;
+  font-size: 40px;
+}
+
+.tdy {
+  border: 4px double #ffcc00;
+}
+.tdf {
+  border: 4px double #cc0066;
+}
+}
+.tdw {
+  border: 4px double white;
+}
+
+p {
+  font-size: 12px;
+}
+
+.align {
+  text-align: center;
+}
+
+.whiteBoldText {
+  font-weight: bold;
+  color: white;
+}
+
+.img_class {
+  margin-top: 15px;
+  border: 2px solid black;
+  height: 250px;
+  width: 250px;
+  align: justify;
+}

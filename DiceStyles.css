@@ -1,26 +1,74 @@
 body {
-  background-color: dimgrey;
+  background-color: #4d4d4d;
 }
 
 h1 {
   font-size: 50px;
   letter-spacing: 10px;
+  background-color: #1a1a1a;
 }
 
-table, th, td {
-  border: 4px double white;
-  font-size: 40px;
+table {
+  border: 4px double black;
+  background-color:  #333333;
+}
+
+#rollButton {
+  font-family: serif;
+  background-color: #cc0066;
+  color: yellow;
+  border-radius: 12px;
+  border: 4px double yellow;
+}
+#defendButton {
+  font-family: serif;
+  background-color: #000099;
+  color: #00ffff;
+  border-radius: 12px;
+  border: 4px double #00ffff;
+}
+#restartButton {
+  font-family: serif;
+  background-color: #003300;
+  color: lime;
+  border-radius: 12px;
+  border: 4px double lime;
+}
+
+.tdy {
+  border: 4px double #ffcc00;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.tdyh {
+  border: 4px double #ffcc00;
+  font-size: 30px;
+}
+.tdf {
+  border: 4px double #cc0066;
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.tdfh {
+  border: 4px double #cc0066;
+  font-size: 30px;
+}
+.tdw {
+  border: 4px double #ff6600;
 }
 
 p {
   font-size: 12px;
+
 }
 
 .align {
   text-align: center;
 }
 
-.WhiteBoldText {
+.whiteBoldText {
   font-weight: bold;
   color: white;
 }
@@ -30,5 +78,26 @@ p {
   border: 2px solid black;
   height: 250px;
   width: 250px;
-  align: justify;
+}
+
+.combatBox {
+  font-size: 15px;
+  background-color: black;
+  border: 4px double white;
+  padding: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.effectBox {
+  font-size: 15px;
+  background-color: black;
+  border: 4px double white;
+  padding: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 15px;
+  margin-top: 0px;
 }
