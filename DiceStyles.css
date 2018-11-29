@@ -12,6 +12,10 @@ table {
   border: 4px double black;
   background-color:  #333333;
 }
+td {
+  padding-left: 50px;
+  padding-right: 50px;
+}
 
 #rollButton {
   font-family: serif;
